@@ -3,11 +3,26 @@ A jukebox player to play MP3 files for windows. The project is from 2011 but it 
 
 The file structure for the music directory should be:
 
-<musicdir>
-  <interpret>
-    <album>
-      <mp3 file>
-      folder.jpg for the jukebox cover
+musicdir </br>
+> interpret1 </br>
+
+>> album1 </br>
+
+>>> mp3 file1 </br>
+
+>>> ... </br>
+
+>>> mp3 fileN </br>
+
+>>> folder.jpg for the cover</br>
+
+>> album2 </br>
+
+...</br>
+
+> interpret2 </br>
+
+... </br>
 
 taglib project is from several authors, see also comments in the source files (GPLv2.1):
 
