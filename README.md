@@ -1,5 +1,5 @@
 # MynaJukeBox
-A jukebox to play MP3 files for windows (from 2011)
+A jukebox player to play MP3 files for windows. The project is from 2011 but it is still working (converted the visual studio projects to VS 2019).
 
 The file structure for the music directory should be:
 
