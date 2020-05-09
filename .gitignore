@@ -6,3 +6,4 @@ taglib/Debug
 taglib/Release
 taglib/.vs
 taglib/*.user
+*.aps
