@@ -1,5 +1,9 @@
 # MynaJukeBox
-A jukebox player to play MP3 files for windows. The project is from 2011 but it is still working. Now VS 2019 is required to build the solution.
+A jukebox player to play MP3 files for windows. The project is from 2011 but it is still working. Now VS 2019 is required to build the solution. Currently only Full Scan seems to work.
+
+Microsoft Visual C++ Redistributables have to be installed (VC_redist.x86.exe).
+
+https://support.microsoft.com/de-de/help/2977003/the-latest-supported-visual-c-downloads
 
 The file structure for the music directory should be:
 
