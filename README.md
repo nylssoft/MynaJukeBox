@@ -1,6 +1,8 @@
 # MynaJukeBox
 A jukebox player to play MP3 files for windows. The project is from 2011 but it is still working. Now VS 2019 is required to build the solution.
 
+![Screenshot](mynajukebox.png)
+
 Microsoft Visual C++ Redistributables have to be installed (VC_redist.x86.exe).
 See: https://support.microsoft.com/de-de/help/2977003/the-latest-supported-visual-c-downloads
 
