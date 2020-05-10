@@ -98,12 +98,12 @@ void MediaDatabase::Save(void) const
 		wostream << pAudioFile->GetTrackNumber() << SEP << pAudioFile->GetFileName() << SEP;		
 		wostream << pAudioFile->GetDirectory()->GetPKey() << SEP << pAudioFile->GetTitle() << SEP;
 		wostream << pAudioFile->GetYear() << endl;
-		/* @TODO: error logging... invalid characters in file name, title, etc
 		if (!wostream.good())
 		{
-			MessageBox(NULL, L"Failed writing audio file", L"Save", MB_OK);
+			// @TODO: log error, does not handle unicode characters in title, e.g. 'tm' symbol (8482)
+			// @TODO: incomplete, following audio files are missing!
+			break;
 		}
-		*/
 	}
 	wostream.close();
 	m_pSettings->Save();
