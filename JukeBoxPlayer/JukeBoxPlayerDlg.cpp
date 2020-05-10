@@ -1152,7 +1152,7 @@ void CJukeBoxPlayerDlg::OnBnClickedMfcbuttonOpenplaylist()
 	ShellExecute(NULL, NULL, playlistfilename.c_str(), NULL, NULL, SW_SHOWNORMAL);
 
 	wistream.open(playlistfilename.c_str(), ios_base::in);
-	while (!wistream.eof())
+	while (wistream.good() && !wistream.eof())
 	{
 		wchar_t buf[1024];
 		wistream.getline(buf, 1024);
