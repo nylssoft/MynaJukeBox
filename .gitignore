@@ -1,3 +1,4 @@
+bin
 JukeBoxPlayer/Debug
 JukeBoxPlayer/Release
 JukeBoxPlayer/*.user
@@ -7,3 +8,4 @@ taglib/Release
 taglib/.vs
 taglib/*.user
 *.aps
+JukeBoxPlayerSetup/obj
