@@ -18,7 +18,7 @@ The latest MSI file can be found here: ![Download](https://github.com/nylssoft/M
 The following section shows the directory and file structure for the music directory that is scanned
 by the jukebox player. A full scan will read all metadata from the MP3 files in this directory structure.
 The result of the full scan can be found in %localappdata%\NylsSoft\JukeBoxPlayer.
-If full scan is not used (the default after the first full scan) the metadata of the MP3 files is read from the CSV files in this directory.
+If full scan is not used the metadata of the MP3 files is read from the CSV files in this directory.
 
 The MP3 files should be organized in the following directory structure:
 
@@ -37,7 +37,7 @@ The MP3 files should be organized in the following directory structure:
 ## How to Use the JukeBox Player
 
 On the first start the settings dialog is displayed that allows you to enter the music directory.
-For further starts the stettings dialog can be opened again using the menu "Settings..." in the open left corner of the application window.
+For further starts the settings dialog can be opened again using the menu "Settings..." in the upper left corner of the application window.
 
 ![Settings Screenshot](mynajukebox_settings.png)
 
@@ -59,7 +59,7 @@ If no playlist exists a Shuffle button is displayed to create a playlist with 10
 
 ![Empty playlist screenshot](mynajukebox_emptyplaylist.png)
 
-* The button part shows 10 covers with the cover of the selected album in the middle. You can click on a cover to move forward or backward in the album list.
+* The bottom part shows 10 covers with the cover of the selected album in the middle. You can click on a cover to move forward or backward in the album list.
 
 ![Covers](mynajukebox_covers.png)
 
