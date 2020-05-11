@@ -4,12 +4,12 @@
 
 A jukebox player to play MP3 files for windows. The project is from 2011 but it is still working. Now VS 2019 is required to build the solution.
 
-![Screenshot](mynajukebox.png)
+![JukeBox Player Screenshot](mynajukebox.png)
 
 ## Installation
 
 Microsoft Visual C++ Redistributables have to be installed (VC_redist.x86.exe).
-See: https://support.microsoft.com/de-de/help/2977003/the-latest-supported-visual-c-downloads.
+See: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads.
 
 The latest MSI file can be found here: ![Download](https://github.com/nylssoft/MynaJukeBox/releases/download/v1.0.0.1/MynaJukeBox.msi).
 
@@ -33,7 +33,14 @@ The MP3 files should be organized in the following directory structure:
     * Folder.jpg
   * *Further Albums*
  * *Further Interprets*
- 
+
+## How to use the jukebox player
+
+On the first start the settings dialog is displayed that allows to enter the music directory.
+For further starts the stettings dialog can be opened again using the menu "Settings..." in the open left corner of the application window.
+
+![Settings Screenshot](mynajukebox_settings.png)
+
 ## Licenses
 
 ### taglib
