@@ -1,47 +1,48 @@
 # MynaJukeBox
+
+## Overview
+
 A jukebox player to play MP3 files for windows. The project is from 2011 but it is still working. Now VS 2019 is required to build the solution.
 
 ![Screenshot](mynajukebox.png)
 
+## Installation
+
 Microsoft Visual C++ Redistributables have to be installed (VC_redist.x86.exe).
-See: https://support.microsoft.com/de-de/help/2977003/the-latest-supported-visual-c-downloads
+See: https://support.microsoft.com/de-de/help/2977003/the-latest-supported-visual-c-downloads.
 
-The file structure for the music directory should be:
+The latest MSI file can be found here: ![Download](https://github.com/nylssoft/MynaJukeBox/releases/download/v1.0.0.1/MynaJukeBox.msi).
 
-musicdir </br>
-> interpret1 </br>
+## Music Directory and File Structure
 
->> album1 </br>
+The following section shows the directory and file structure for the music directory that is scanned
+by the jukebox player. A full scan will read all metadata from the MP3 files in this directory structure.
+The result of the full scan can be found in %localappdata%\NylsSoft\JukeBoxPlayer.
+If full scan is not used (the default after the first full scan) the metadata of the MP3 files is read from the CSV files in this directory.
 
->>> mp3 file1 </br>
+The MP3 files should be organized in the following directory structure:
 
->>> ... </br>
+* Interpret 1
+  * Album 1
+    * Track 1.mp3
+    * *Further tracks*
+    * Folder.jpg
+  * Album 2
+    * Track 1.mp3
+    * *Further tracks*
+    * Folder.jpg
+  * *Further Albums*
+ * *Further Interprets*
+ 
+## Licenses
 
->>> mp3 fileN </br>
+### taglib
 
->>> folder.jpg for the cover</br>
+Source code from the **taglib** project is used in this jukebox player.
+The source code has not been updated, it is from 2011. See https://github.com/taglib/taglib
+for current status of the **taglib** project.
 
->> album2 </br>
-
-...</br>
-
-> interpret2 </br>
-
-... </br>
-
-Licenses:
-
-taglib project is from several authors, see also comments in the source files (GPLv2.1):
-
-- Scott Wheeler
-- Allan Sandfeld Jensen
-- Lukáš Lalinský
-- Aaron VonderHaar
-- Serkan Kalyoncu
-- Urs Fleisch
-- Ismael Orenstein
-
-See unicode.cpp for authors outside the taglib project.
+### Open Icon Library
 
 The following icons are used from the Open Icon Library (https://sourceforge.net/projects/openiconlibrary):
 
