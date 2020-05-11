@@ -4,7 +4,7 @@
 
 A jukebox player to play MP3 files for windows. The project is from 2011 but it is still working. Now VS 2019 is required to build the solution.
 
-![JukeBox Player Screenshot](mynajukebox.png)
+![JukeBox Player Screenshot](Screenshots/mynajukebox.png)
 
 ## Installation
 
@@ -39,29 +39,29 @@ The MP3 files should be organized in the following directory structure:
 On the first start the settings dialog is displayed that allows you to enter the music directory.
 For further starts the settings dialog can be opened again using the menu "Settings..." in the upper left corner of the application window.
 
-![Settings Screenshot](mynajukebox_settings.png)
+![Settings Screenshot](Screenshots/mynajukebox_settings.png)
 
 The window has four parts:
 
 * The left part shows the list of all albums. The list can be filtered using the search text field.
 
-![Filtered album list screenshot](mynajukebox_search.png)
+![Filtered album list screenshot](Screenshots/mynajukebox_search.png)
 
 * The middle part shows the album that is selected in the album list. It shows the cover, the number of the current album of all albums, the album date, the number of tracks and the tracks itself. The Play button clears the current playlist and adds all tracks of the album to the playlist. The Next and Previous buttons move to the next or previous album. Double click on a track to move the track to the playlist.
 
-![Selected album screenshot](mynajukebox_album.png).
+![Selected album screenshot](Screenshots/mynajukebox_album.png).
 
 * The right part shows the playlist. The Stop button stops playing and clears the playlist. The Pause button pauses playing. The Forward button moves forward to the next track in the playlist.
 
-![Non empty playlist screenshot](mynajukebox_playlist.png)
+![Non empty playlist screenshot](Screenshots/mynajukebox_playlist.png)
 
 If no playlist exists a Shuffle button is displayed to create a playlist with 100 random tracks. The Open Playlist button opens a recently created playlist in an editor (from the application directory) and fills the playlist with these tracks.
 
-![Empty playlist screenshot](mynajukebox_emptyplaylist.png)
+![Empty playlist screenshot](Screenshots/mynajukebox_emptyplaylist.png)
 
 * The bottom part shows 10 covers with the cover of the selected album in the middle. You can click on a cover to move forward or backward in the album list.
 
-![Covers](mynajukebox_covers.png)
+![Covers](Screenshots/mynajukebox_covers.png)
 
 ## Licenses
 
