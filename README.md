@@ -11,7 +11,7 @@ A jukebox player to play MP3 files for windows. The project is from 2011 but it 
 Microsoft Visual C++ Redistributables have to be installed (VC_redist.x86.exe).
 See: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads.
 
-The latest MSI file can be found here: ![Download](https://github.com/nylssoft/MynaJukeBox/releases/download/v1.0.0.1/MynaJukeBox.msi).
+The latest MSI file can be found here: https://github.com/nylssoft/MynaJukeBox/releases/download/v1.0.0.1/MynaJukeBox.msi.
 
 ## Music Directory and File Structure
 
