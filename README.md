@@ -63,6 +63,11 @@ If no playlist exists a Shuffle button is displayed to create a playlist with 10
 
 ![Covers](Screenshots/mynajukebox_covers.png)
 
+## Build
+
+- Build with VS 2019
+- WiX ToolSet is required to build a MSI, see https://http://wixtoolset.org/
+
 ## Licenses
 
 ### taglib
