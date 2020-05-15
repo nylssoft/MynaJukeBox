@@ -66,7 +66,7 @@ If no playlist exists a Shuffle button is displayed to create a playlist with 10
 ## Build
 
 - Build with VS 2019
-- WiX ToolSet is required to build a MSI, see https://http://wixtoolset.org/
+- WiX ToolSet is required to build a MSI, see https://wixtoolset.org/
 
 ## Licenses
 
