@@ -1,8 +1,8 @@
 bin
-JukeBoxPlayer/Debug
-JukeBoxPlayer/Release
-JukeBoxPlayer/*.user
-JukeBoxPlayer/.vs
+**/JukeBoxPlayer/Debug
+**/JukeBoxPlayer/Release
+**/JukeBoxPlayer/*.user
+**/JukeBoxPlayer/.vs
 taglib/Debug
 taglib/Release
 taglib/.vs

@@ -2,7 +2,7 @@
 
 ## Overview
 
-A jukebox player to play MP3 files for windows. The project is from 2011 but it is still working. Now VS 2019 is required to build the solution.
+A jukebox player to play MP3 files for windows. The project is from 2011 but it is still working. Now VS 2022 is required to build the solution.
 
 ![JukeBox Player Screenshot](Screenshots/mynajukebox.png)
 
@@ -10,8 +10,6 @@ A jukebox player to play MP3 files for windows. The project is from 2011 but it 
 
 Microsoft Visual C++ Redistributables have to be installed (VC_redist.x86.exe).
 See: https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads.
-
-The latest MSI file can be found here: https://github.com/nylssoft/MynaJukeBox/releases/download/v1.0.0.1/MynaJukeBox.msi.
 
 ## Music Directory and File Structure
 
@@ -65,7 +63,7 @@ If no playlist exists a Shuffle button is displayed to create a playlist with 10
 
 ## Build
 
-- Build with VS 2019
+- Build with VS 2022 with options C++ desktop development, C++ MFC,
 - WiX ToolSet is required to build a MSI, see https://wixtoolset.org/
 
 ## Licenses
